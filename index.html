@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Primaria Miguel Hidalgo en Morelia: educación integral, valores, excelencia académica y desarrollo para niños y niñas.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primaria Miguel Hidalgo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #cd5c5c;
+            padding: 0.5rem;
+            position: relative;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li {
+            position: relative;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #8b0000;
+        }
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #cd5c5c;
+            padding: 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav ul ul li {
+            width: 200px;
+        }
+        nav li:hover > ul {
+            display: block;
+        }
+        .hero {
+            background-image: url('primaria.jpg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        @media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul ul {
+        position: static;
+        box-shadow: none;
+    }
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+}
+.ir-arriba {
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 0.5rem 1.5rem;
+    background-color: #cd5c5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.ir-arriba:hover {
+    background-color: #8b0000;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Primaria Miguel Hidalgo</h1>
+        <h2>Anexa la normal</h2>
+        <p>Educación para un mejor futuro</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#mision">Misión y Visión</a></li>
+            <li><a href="#oferta">Oferta Educativa</a>
+                <ul>
+                    <li><a href="#academica">Académica</a></li>
+                    <li><a href="#artistica">Artística</a></li>
+                    <li><a href="#deportiva">Deportiva</a></li>
+                </ul>
+            </li>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#inscripciones">Inscripciones</a>
+                <ul>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#requisitos">Requisitos</a></li>
+                </ul>
+            </li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h2>Bienvenidos a Primaria Miguel Hidalgo</h2>
+        <p>Formamos niños y niñas con valores y excelencia académica</p>
+    </div>
+
+    <section id="mision" class="section">
+        <h3>Misión y Visión</h3>
+        <p>Nuestra misión es proporcionar una educación integral basada en valores y excelencia académica. 
+           Nuestra visión es formar ciudadanos comprometidos y líderes del futuro.</p>
+    </section>
+
+    <section id="oferta" class="section">
+        <h3>Oferta Educativa</h3>
+        <p>Contamos con programas educativos innovadores, actividades artísticas, deportivas y talleres extraescolares para el desarrollo integral de nuestros estudiantes.</p>
+    </section>
+    <section id="academica" class="section">
+    <h3>Oferta Académica</h3>
+    <p>Los programas académicos de la escuela, incluidos tambien en nuestro calendario escolar.</p>
+</section>
+
+<section id="artistica" class="section">
+    <h3>Oferta Artística</h3>
+    <p>Actvidades y talleres artísticos.</p>
+</section>
+
+<section id="deportiva" class="section">
+    <h3>Oferta Deportiva</h3>
+    <p>Deportes y actividades físicas.</p>
+</section>
+    <section id="noticias" class="section">
+        <h3>Noticias y Eventos</h3>
+        <p>Consulta el <strong>calendario escolar</strong> y mantente al día con nuestras actividades.</p>
+    </section>
+
+    <section id="inscripciones" class="section">
+        <h3>Proceso de Inscripciones</h3>
+        <p>¡Únete a nuestra comunidad! Visita nuestra escuela y conoce más sobre nuestro proceso de inscripción.</p>
+    </section>
+
+    <section id="contacto" class="section">
+        <h3>Preguntas Frecuentes</h3>
+    <details>
+        <summary>¿Cuáles son los horarios de clases?</summary>
+        <p>Las clases son de lunes a viernes de 8:00 a 12:30 horas.</p>
+    </details>
+    <details>
+        <summary>¿Qué documentos necesito para inscribir a mi hijo(a)?</summary>
+        <p>Acta de nacimiento, CURP, comprobante de domicilio, cartilla de vacunación y fotografías tamaño infantil.</p>
+    </details>
+    <details>
+        <summary>¿Hay actividades extraescolares?</summary>
+        <p>Sí, contamos con talleres artísticos, deportivos y de apoyo académico.</p>
+    </details>
+    <details>
+        <summary>¿Cómo puedo contactar a la escuela?</summary>
+        <p>Puedes llamarnos al <a href="tel:1234567890">(123) 456-7890</a> o escribirnos a <a href="mailto:Alexanderchavez0723@gmail.com">Alexanderchavez0723@gmail.com</a>.</p>
+    </details>
+
+        <h3>Contacto</h3>
+        <p>Dirección: <a href="https://www.google.com/maps/place/Escuela+Miguel+Hidalgo/@19.7005885,-101.1826919,19.75z/data=!4m6!3m5!1s0x842d0e737263e8e5:0x70e636eb31ffd25e!8m2!3d19.7006218!4d-101.1822755!16s%2Fg%2F1th1d13z?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        Calle Antonio Alzate Sn, 58000 Morelia, Michoacán de Ocampo</a><br>
+           Teléfono: <a href="tel:1234567890">(123) 456-7890</a><br>
+           Email: <a href="mailto:Alexanderchavez0723@gmail.com">Alexanderchavez0723@gmail.com</a></p>
+    </section>
+    <a href="#" class="ir-arriba">↑ Ir arriba</a>
+    <p>
+        Síguenos en:
+        <a href="https://facebook.com/" target="_blank">Facebook</a> |
+        <a href="https://wa.me/5211234567890" target="_blank">WhatsApp</a>
+    </p>
+    <section id="privacidad" class="section" style="font-size:0.95em;">
+    <h3>Aviso de Privacidad</h3>
+    <p>
+        La información proporcionada por los padres y tutores será utilizada únicamente para fines escolares y administrativos de la Primaria Miguel Hidalgo. No compartimos datos personales con terceros. Si tienes dudas sobre el manejo de tu información, contáctanos.
+    </p>
+</section>
+    <footer>
+        <p>&copy; 2025 Primaria Miguel Hidalgo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
